@@ -82,20 +82,9 @@ const PortfolioPage = () => {
   // }, [activeTab, portfolioData[activeTab].length]);
 
   useEffect(() => {
-    const ONE_DAY_MS = 24 * 60 * 60 * 1000;
-
-    // Get the last time we successfully fetched from localStorage
-    const lastFetched = localStorage.getItem("last_market_update");
-    const now = Date.now();
-
-    // Logic: Fetch if we've never fetched OR if 24 hours have passed
-    if (!lastFetched || now - Number(lastFetched) > ONE_DAY_MS) {
-      refreshMarketPrices();
-      localStorage.setItem("last_market_update", now.toString());
-    }
-
+    // Always fetch live prices on load and tab switch
+    refreshMarketPrices();
     // No setInterval needed!
-    // The logic runs every time the component loads (Tab open/Refresh)
   }, [activeTab, portfolioData[activeTab].length]);
   // 4. Save/Edit Logic
   const handleSaveStock = (formData) => {
@@ -394,6 +383,18 @@ const PortfolioPage = () => {
           setIsImportModalOpen(false);
         }}
       />
+
+      {/* CORS Anywhere Demo Link */}
+      <div className="mt-10 text-center">
+        <a
+          href="https://cors-anywhere.herokuapp.com/corsdemo"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 underline hover:text-blue-300"
+        >
+          Enable CORS Proxy (CORS Anywhere)
+        </a>
+      </div>
     </div>
   );
 };

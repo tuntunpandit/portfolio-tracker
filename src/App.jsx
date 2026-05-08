@@ -6,10 +6,8 @@ import {
 } from "react-router-dom";
 import Header from "./components/layout/Header";
 import PortfolioPage from "./features/portfolio/PortFolioPage";
-// Placeholder components for future modules
-const MutualFunds = () => (
-  <div className="text-white p-10">Mutual Funds Module Coming Soon...</div>
-);
+import MutualFundPage from "./features/mutualfunds/MutualFundPage";
+// Placeholder component for future module
 const SwingTrading = () => (
   <div className="text-white p-10">Swing Trading Module Coming Soon...</div>
 );
@@ -26,7 +24,7 @@ const App = () => {
             <Route path="/" element={<Navigate to="/portfolio" replace />} />
 
             <Route path="/portfolio" element={<PortfolioPage />} />
-            <Route path="/mutual-funds" element={<MutualFunds />} />
+            <Route path="/mutual-funds" element={<MutualFundPage />} />
             <Route path="/swing-trading" element={<SwingTrading />} />
 
             {/* 404 Catch-all */}
