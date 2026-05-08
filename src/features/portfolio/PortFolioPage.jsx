@@ -102,6 +102,7 @@ const PortfolioPage = () => {
               symbol: formData?.symbol?.toUpperCase(), // Sync symbol
               exchange: formData?.exchange,
               sector: formData?.sector,
+              date: formData?.date,
               purchases: stock.purchases.map((p) =>
                 p.id === editingInfo.purchaseId
                   ? {
@@ -126,12 +127,11 @@ const PortfolioPage = () => {
         );
 
         const newPurchase = {
-          id: Date.now(), // Unique ID for the specific purchase lot
+          id: Math.random(Date.now()) * 100000000, // Unique ID for the specific purchase lot
           quantity: Number(formData.quantity),
           price: Number(formData.price),
-          date: new Date().toLocaleDateString("en-IN"),
+          date: excelDateToJSDate(formData.date).toISOString().split("T")[0],
         };
-
         if (existingStockIdx > -1) {
           // Option A: Stock exists, add a new "branch" to the tree
           const updatedStock = { ...currentBrokerData[existingStockIdx] };
@@ -228,6 +228,22 @@ const PortfolioPage = () => {
 
     return { count: filteredData.length, invested, value: currentVal };
   }, [filteredData, livePrices]);
+
+  const excelDateToJSDate = (serial) => {
+    // If the value is already a string/Date, just return it
+    if (isNaN(serial)) return serial;
+
+    // Excel's epoch is 1899-12-30
+    const utc_days = Math.floor(serial - 25569);
+    const utc_value = utc_days * 86400;
+    const date_info = new Date(utc_value * 1000);
+
+    return new Date(
+      date_info.getFullYear(),
+      date_info.getMonth(),
+      date_info.getDate(),
+    );
+  };
 
   return (
     <div className="space-y-6 max-w-7xl mx-auto pb-20 px-4">
@@ -350,6 +366,7 @@ const PortfolioPage = () => {
               sector: stock.sector,
               quantity: purchase.quantity,
               price: purchase.price,
+              date: stock?.date ? new Date(stock.date) : new Date(),
             });
             setIsAddModalOpen(true);
           }}
@@ -381,6 +398,7 @@ const PortfolioPage = () => {
               price: row["Average Price"],
               exchange: row["Exchange"],
               symbol: row["Symbol"],
+              date: row["Date"],
             }),
           );
           setIsImportModalOpen(false);
