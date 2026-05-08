@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@theme {
+  /* Financial theme colors */
+  --color-brand-dark: #0f172a; /* Slate 900 */
+  --color-brand-card: #1e293b; /* Slate 800 */
+  --color-brand-accent: #10b981; /* Emerald 500 (Success/Profit) */
+  --color-brand-border: #334155; /* Slate 700 */
+}
+
+@layer base {
+  body {
+    @apply bg-brand-dark text-slate-100 antialiased;
+  }
+}
