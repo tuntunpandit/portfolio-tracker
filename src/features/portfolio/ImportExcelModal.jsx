@@ -15,12 +15,16 @@ const ImportExcelModal = ({ isOpen, onClose, onImport }) => {
         Sector: "Energy",
         Quantity: 10,
         "Average Price": 2500,
+        Exchange: "NSE",
+        Symbol: "RELIANCE",
       },
       {
         "Company Name": "TCS",
         Sector: "IT",
         Quantity: 5,
         "Average Price": 3200,
+        Exchange: "NSE",
+        Symbol: "TCS",
       },
     ];
     const ws = XLSX.utils.json_to_sheet(templateData);
@@ -96,6 +100,8 @@ const ImportExcelModal = ({ isOpen, onClose, onImport }) => {
                   <th className="p-2">Company</th>
                   <th className="p-2">Qty</th>
                   <th className="p-2">Price</th>
+                  <th className="p-2">Exchange</th>
+                  <th className="p-2">Symbol</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-brand-border">
@@ -104,6 +110,8 @@ const ImportExcelModal = ({ isOpen, onClose, onImport }) => {
                     <td className="p-2 truncate">{row["Company Name"]}</td>
                     <td className="p-2">{row["Quantity"]}</td>
                     <td className="p-2">₹{row["Average Price"]}</td>
+                    <td className="p-2">{row["Exchange"]}</td>
+                    <td className="p-2">{row["Symbol"]}</td>
                   </tr>
                 ))}
               </tbody>

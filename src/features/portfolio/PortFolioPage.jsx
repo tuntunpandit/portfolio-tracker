@@ -99,9 +99,9 @@ const PortfolioPage = () => {
             return {
               ...stock,
               companyName: formData.companyName, // Allow updating display name
-              symbol: formData.symbol.toUpperCase(), // Sync symbol
-              exchange: formData.exchange,
-              sector: formData.sector,
+              symbol: formData?.symbol?.toUpperCase(), // Sync symbol
+              exchange: formData?.exchange,
+              sector: formData?.sector,
               purchases: stock.purchases.map((p) =>
                 p.id === editingInfo.purchaseId
                   ? {
@@ -121,8 +121,8 @@ const PortfolioPage = () => {
         // Check if this stock (Symbol + Exchange) already exists in this broker
         const existingStockIdx = currentBrokerData.findIndex(
           (s) =>
-            s.symbol.toUpperCase() === formData.symbol.toUpperCase() &&
-            s.exchange === formData.exchange,
+            s?.symbol?.toUpperCase() === formData?.symbol?.toUpperCase() &&
+            s?.exchange === formData?.exchange,
         );
 
         const newPurchase = {
@@ -147,9 +147,9 @@ const PortfolioPage = () => {
           currentBrokerData.push({
             id: `stock_${Date.now()}`, // Unique ID for the grouping
             companyName: formData.companyName,
-            symbol: formData.symbol.toUpperCase(),
-            exchange: formData.exchange,
-            sector: formData.sector,
+            symbol: formData?.symbol?.toUpperCase(),
+            exchange: formData?.exchange,
+            sector: formData?.sector,
             purchases: [newPurchase],
           });
         }
@@ -372,12 +372,15 @@ const PortfolioPage = () => {
         isOpen={isImportModalOpen}
         onClose={() => setIsImportModalOpen(false)}
         onImport={(data) => {
+          console.log(data);
           data.forEach((row) =>
             handleSaveStock({
               companyName: row["Company Name"],
               sector: row["Sector"],
               quantity: row["Quantity"],
               price: row["Average Price"],
+              exchange: row["Exchange"],
+              symbol: row["Symbol"],
             }),
           );
           setIsImportModalOpen(false);

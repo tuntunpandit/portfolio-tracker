@@ -36,9 +36,7 @@ const PortfolioTable = ({
               <th className="p-4">Asset Details</th>
               <th className="p-4 text-right">Total Qty</th>
               <th className="p-4 text-right">Avg. Price</th>
-              <th className="p-4 text-right bg-slate-800/30">
-                Current Price
-              </th>{" "}
+              <th className="p-4 text-right bg-slate-800/30">Current Price</th>
               {/* NEW COLUMN HEADER */}
               <th className="p-4 text-right">Invested Value</th>
               <th className="p-4 text-right">Market Value</th>
