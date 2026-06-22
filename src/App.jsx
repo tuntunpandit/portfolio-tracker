@@ -5,6 +5,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import Header from "./components/layout/Header";
+import DashboardPage from "./features/dashboard/DashboardPage";
 import PortfolioPage from "./features/portfolio/PortFolioPage";
 import MutualFundPage from "./features/mutualfunds/MutualFundPage";
 // Placeholder component for future module
@@ -20,9 +21,10 @@ const App = () => {
 
         <main className="container mx-auto pt-24 pb-12">
           <Routes>
-            {/* Redirect root to portfolio */}
-            <Route path="/" element={<Navigate to="/portfolio" replace />} />
+            {/* Redirect root to dashboard */}
+            <Route path="/" element={<Navigate to="/dashboard" replace />} />
 
+            <Route path="/dashboard" element={<DashboardPage />} />
             <Route path="/portfolio" element={<PortfolioPage />} />
             <Route path="/mutual-funds" element={<MutualFundPage />} />
             <Route path="/swing-trading" element={<SwingTrading />} />

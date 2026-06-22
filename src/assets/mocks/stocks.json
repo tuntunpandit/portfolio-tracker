@@ -48,51 +48,51 @@
       "purchases": [
         {
           "id": 19099362.863770984,
-          "quantity": 3,
-          "price": 1935,
-          "date": "2025-04-22"
+          "quantity": 30,
+          "price": 193.50,
+          "date": "2025-04-23"
         },
         {
           "id": 27862753.611647274,
-          "quantity": 3,
-          "price": 2000,
-          "date": "2025-04-01"
+          "quantity": 30,
+          "price": 200,
+          "date": "2025-04-02"
         },
         {
           "id": 49774980.0333355,
-          "quantity": 2,
-          "price": 2115,
-          "date": "2025-02-11"
+          "quantity": 20,
+          "price": 211.50,
+          "date": "2025-02-12"
         },
         {
           "id": 58651895.89414524,
-          "quantity": 1,
-          "price": 3855,
-          "date": "2024-12-26"
+          "quantity": 10,
+          "price": 385.50,
+          "date": "2024-12-27"
         },
         {
           "id": 34607324.092447445,
-          "quantity": 1,
-          "price": 4275,
-          "date": "2024-12-02"
+          "quantity": 10,
+          "price": 427.50,
+          "date": "2024-12-03"
         },
         {
           "id": 44982092.86147219,
-          "quantity": 1,
-          "price": 4900,
-          "date": "2024-11-11"
+          "quantity": 10,
+          "price": 490.0,
+          "date": "2024-11-12"
         },
         {
           "id": 97357176.22767816,
-          "quantity": 2,
-          "price": 1626,
-          "date": "2024-07-24"
+          "quantity": 20,
+          "price": 162.60,
+          "date": "2024-07-25"
         },
         {
           "id": 47002745.33704748,
-          "quantity": 9,
-          "price": 1035,
-          "date": "2024-05-12"
+          "quantity": 90,
+          "price": 103.50,
+          "date": "2024-05-13"
         }
       ]
     },
@@ -100,32 +100,32 @@
       "id": "stock_1778248430781",
       "companyName": "Ddev Plastiks Industries Ltd",
       "symbol": "DDEVPLSTIK",
-      "exchange": "BSE",
+      "exchange": "NSE",
       "sector": "CHEMICALS",
       "purchases": [
         {
           "id": 28724219.168586683,
           "quantity": 10,
           "price": 381,
-          "date": "2024-08-04"
+          "date": "2024-08-05"
         },
         {
           "id": 40889881.16573998,
           "quantity": 3,
           "price": 385,
-          "date": "2024-06-17"
+          "date": "2024-06-18"
         },
         {
           "id": 8198337.857880577,
           "quantity": 4,
           "price": 207,
-          "date": "2023-10-17"
+          "date": "2023-10-18"
         },
         {
           "id": 64671707.560714886,
           "quantity": 30,
           "price": 235,
-          "date": "2023-08-20"
+          "date": "2023-08-21"
         }
       ]
     },
@@ -274,56 +274,32 @@
       "id": "stock_1778248545025",
       "companyName": "Angel One Ltd",
       "symbol": "ANGELONE",
-      "exchange": "NSE",
+      "exchange": "BSE",
       "sector": "FINANCIAL SERVICES",
       "purchases": [
         {
           "id": 74956190.2068268,
-          "quantity": 9,
+          "quantity": 10,
           "price": 215,
-          "date": "2025-09-25"
-        },
-        {
-          "id": 6621322.8975849915,
-          "quantity": 1,
-          "price": 215,
-          "date": "2025-09-25"
+          "date": "2025-09-26"
         },
         {
           "id": 54517731.23335937,
-          "quantity": 3,
+          "quantity": 30,
           "price": 271.5,
-          "date": "2025-07-20"
-        },
-        {
-          "id": 14628656.501250481,
-          "quantity": 27,
-          "price": 271.5,
-          "date": "2025-07-20"
+          "date": "2025-07-21"
         },
         {
           "id": 74100138.42449798,
-          "quantity": 1,
+          "quantity": 10,
           "price": 291.5,
-          "date": "2024-12-26"
-        },
-        {
-          "id": 65951896.49065747,
-          "quantity": 9,
-          "price": 291.5,
-          "date": "2024-12-26"
+          "date": "2024-12-27"
         },
         {
           "id": 17060658.314018916,
-          "quantity": 9,
+          "quantity": 90,
           "price": 235.8,
-          "date": "2024-07-01"
-        },
-        {
-          "id": 46555336.71169715,
-          "quantity": 81,
-          "price": 235.8,
-          "date": "2024-07-01"
+          "date": "2024-07-02"
         }
       ]
     },
@@ -337,32 +313,38 @@
         {
           "id": 73788840.20623206,
           "quantity": 30,
-          "price": 100.5,
-          "date": "2025-03-27"
+          "price": 100.50,
+          "date": "2025-03-28"
         },
         {
           "id": 30891494.855076574,
           "quantity": 15,
           "price": 161,
-          "date": "2025-01-20"
+          "date": "2025-01-21"
         },
         {
           "id": 4507774.317402402,
           "quantity": 5,
           "price": 228,
-          "date": "2024-07-22"
+          "date": "2024-07-23"
         },
         {
           "id": 18991714.14099461,
           "quantity": 3,
           "price": 353,
-          "date": "2023-08-31"
+          "date": "2023-09-01"
         },
         {
           "id": 48847288.26449154,
           "quantity": 13,
           "price": 322.95,
-          "date": "2023-07-20"
+          "date": "2023-07-21"
+        },
+        {
+          "id": 48847288.26449154,
+          "quantity": 17,
+          "price": 322.55,
+          "date": "2023-07-21"
         }
       ]
     },
@@ -441,14 +423,8 @@
         },
         {
           "id": 92073711.75688723,
-          "quantity": 3,
-          "price": 2831,
-          "date": "2025-01-06"
-        },
-        {
-          "id": 18629752.595323425,
-          "quantity": 1,
-          "price": 2831,
+          "quantity": 4,
+          "price": 2831.85,
           "date": "2025-01-06"
         }
       ]
@@ -456,7 +432,7 @@
     {
       "id": "stock_1778248632384",
       "companyName": "Galaxy Bearings Ltd",
-      "symbol": "GALXBRG-X",
+      "symbol": "GALXBRG",
       "exchange": "BSE",
       "sector": "Bearings",
       "purchases": [
@@ -888,7 +864,7 @@
     {
       "id": "stock_1778248734968",
       "companyName": "Pavna Industries Ltd",
-      "symbol": "PAVNAIND-T",
+      "symbol": "PAVNAIND",
       "exchange": "NSE",
       "sector": "Engineering - Industrial Products",
       "purchases": [

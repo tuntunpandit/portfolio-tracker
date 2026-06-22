@@ -13,14 +13,17 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-brand-dark/80 backdrop-blur-md border-b border-brand-border">
       <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center gap-2">
+        <NavLink
+          to="/dashboard"
+          className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+        >
           <div className="w-8 h-8 bg-brand-accent rounded-lg flex items-center justify-center shadow-lg shadow-brand-accent/20">
             <TrendingUp className="text-white" size={20} />
           </div>
           <span className="text-xl font-black text-white tracking-tighter uppercase">
             Asset<span className="text-brand-accent">Flow</span>
           </span>
-        </div>
+        </NavLink>
 
         {/* Navigation */}
         <nav className="hidden md:flex items-center gap-1">
