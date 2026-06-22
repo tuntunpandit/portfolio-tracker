@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { TrendingUp, BarChart3, ArrowUpRight } from "lucide-react";
+import { TrendingUp, BarChart3, ArrowUpRight, Loader } from "lucide-react";
 import { useLocalStorage } from "../../hooks/useLocalStorage";
 import { fetchLivePrice } from "../../utils/marketApi";
 
@@ -11,6 +11,7 @@ const DashboardPage = () => {
   });
 
   const [livePrices, setLivePrices] = useState({});
+  const [isLoading, setIsLoading] = useState(true);
 
   // Calculate summary statistics
   const allStocks = Object.values(portfolioData).flat();
@@ -43,6 +44,7 @@ const DashboardPage = () => {
   // Fetch live prices on component mount and when stocks change
   useEffect(() => {
     const fetchPrices = async () => {
+      setIsLoading(true);
       const uniqueAssets = allStocks.reduce((acc, stock) => {
         const exists = acc.find(
           (item) =>
@@ -62,10 +64,13 @@ const DashboardPage = () => {
         }
       }
       setLivePrices(priceMap);
+      setIsLoading(false);
     };
 
     if (allStocks.length > 0) {
       fetchPrices();
+    } else {
+      setIsLoading(false);
     }
   }, [allStocks.length]);
 
@@ -138,23 +143,32 @@ const DashboardPage = () => {
             <h3 className="text-slate-400 font-semibold">Total Right Now</h3>
             <TrendingUp className="text-emerald-400" size={24} />
           </div>
-          <p className="text-3xl font-black text-white">
-            ₹
-            {totalCurrentValue.toLocaleString("en-IN", {
-              maximumFractionDigits: 0,
-            })}
-          </p>
-          <div className="flex items-center gap-2 mt-2">
-            <p
-              className={`text-sm font-semibold ${isPositive ? "text-emerald-400" : "text-red-400"}`}
-            >
-              {isPositive ? "+" : ""}
-              {percentageChange.toFixed(2)}%
-            </p>
-            <p className="text-sm text-slate-500">
-              {isPositive ? "Gain" : "Loss"}
-            </p>
-          </div>
+          {isLoading ? (
+            <div className="flex items-center gap-2">
+              <Loader className="animate-spin text-brand-accent" size={20} />
+              <span className="text-slate-400">Fetching live prices...</span>
+            </div>
+          ) : (
+            <>
+              <p className="text-3xl font-black text-white">
+                ₹
+                {totalCurrentValue.toLocaleString("en-IN", {
+                  maximumFractionDigits: 0,
+                })}
+              </p>
+              <div className="flex items-center gap-2 mt-2">
+                <p
+                  className={`text-sm font-semibold ${isPositive ? "text-emerald-400" : "text-red-400"}`}
+                >
+                  {isPositive ? "+" : ""}
+                  {percentageChange.toFixed(2)}%
+                </p>
+                <p className="text-sm text-slate-500">
+                  {isPositive ? "Gain" : "Loss"}
+                </p>
+              </div>
+            </>
+          )}
         </div>
       </div>
 
@@ -193,12 +207,19 @@ const DashboardPage = () => {
                 </div>
                 <div className="flex justify-between text-sm">
                   <span className="text-slate-400">Current:</span>
-                  <span className="text-white font-semibold">
-                    ₹
-                    {stat.currentValue.toLocaleString("en-IN", {
-                      maximumFractionDigits: 0,
-                    })}
-                  </span>
+                  {isLoading ? (
+                    <div className="flex items-center gap-1">
+                      <Loader className="animate-spin text-brand-accent" size={14} />
+                      <span className="text-slate-400 text-xs">Loading...</span>
+                    </div>
+                  ) : (
+                    <span className="text-white font-semibold">
+                      ₹
+                      {stat.currentValue.toLocaleString("en-IN", {
+                        maximumFractionDigits: 0,
+                      })}
+                    </span>
+                  )}
                 </div>
               </div>
             </div>
