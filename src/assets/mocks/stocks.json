@@ -1,0 +1,1421 @@
+{
+  "Zerodha": [
+    {
+      "id": "stock_1778246906011",
+      "companyName": "Avalon Technologies Ltd",
+      "symbol": "AVALON",
+      "exchange": "NSE",
+      "sector": "ENGINEERING & CAPITAL GOODS",
+      "purchases": [
+        {
+          "id": 18731138.363188926,
+          "quantity": 5,
+          "price": 672,
+          "date": "2025-02-26"
+        },
+        {
+          "id": 94218433.04094128,
+          "quantity": 1,
+          "price": 672,
+          "date": "2025-02-26"
+        },
+        {
+          "id": 90097626.70154613,
+          "quantity": 4,
+          "price": 855,
+          "date": "2025-01-12"
+        },
+        {
+          "id": 78408277.83988602,
+          "quantity": 1,
+          "price": 529,
+          "date": "2023-10-12"
+        },
+        {
+          "id": 71877710.23917472,
+          "quantity": 16,
+          "price": 600.5,
+          "date": "2023-09-07"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248422227",
+      "companyName": "E2E Networks Ltd",
+      "symbol": "E2E",
+      "exchange": "NSE",
+      "sector": "ENGINEERING & CAPITAL GOODS",
+      "purchases": [
+        {
+          "id": 19099362.863770984,
+          "quantity": 3,
+          "price": 1935,
+          "date": "2025-04-22"
+        },
+        {
+          "id": 27862753.611647274,
+          "quantity": 3,
+          "price": 2000,
+          "date": "2025-04-01"
+        },
+        {
+          "id": 49774980.0333355,
+          "quantity": 2,
+          "price": 2115,
+          "date": "2025-02-11"
+        },
+        {
+          "id": 58651895.89414524,
+          "quantity": 1,
+          "price": 3855,
+          "date": "2024-12-26"
+        },
+        {
+          "id": 34607324.092447445,
+          "quantity": 1,
+          "price": 4275,
+          "date": "2024-12-02"
+        },
+        {
+          "id": 44982092.86147219,
+          "quantity": 1,
+          "price": 4900,
+          "date": "2024-11-11"
+        },
+        {
+          "id": 97357176.22767816,
+          "quantity": 2,
+          "price": 1626,
+          "date": "2024-07-24"
+        },
+        {
+          "id": 47002745.33704748,
+          "quantity": 9,
+          "price": 1035,
+          "date": "2024-05-12"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248430781",
+      "companyName": "Ddev Plastiks Industries Ltd",
+      "symbol": "DDEVPLSTIK",
+      "exchange": "BSE",
+      "sector": "CHEMICALS",
+      "purchases": [
+        {
+          "id": 28724219.168586683,
+          "quantity": 10,
+          "price": 381,
+          "date": "2024-08-04"
+        },
+        {
+          "id": 40889881.16573998,
+          "quantity": 3,
+          "price": 385,
+          "date": "2024-06-17"
+        },
+        {
+          "id": 8198337.857880577,
+          "quantity": 4,
+          "price": 207,
+          "date": "2023-10-17"
+        },
+        {
+          "id": 64671707.560714886,
+          "quantity": 30,
+          "price": 235,
+          "date": "2023-08-20"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248437242",
+      "companyName": "Deep Industries Ltd",
+      "symbol": "DEEPINDS",
+      "exchange": "NSE",
+      "sector": "ENERGY",
+      "purchases": [
+        {
+          "id": 78952524.51193632,
+          "quantity": 10,
+          "price": 453,
+          "date": "2025-06-26"
+        },
+        {
+          "id": 4254542.193236932,
+          "quantity": 20,
+          "price": 425,
+          "date": "2025-05-22"
+        },
+        {
+          "id": 134900.19165799394,
+          "quantity": 5,
+          "price": 475,
+          "date": "2025-02-26"
+        },
+        {
+          "id": 18233213.16427885,
+          "quantity": 5,
+          "price": 542,
+          "date": "2025-02-09"
+        },
+        {
+          "id": 64862138.392229795,
+          "quantity": 3,
+          "price": 540,
+          "date": "2025-01-21"
+        },
+        {
+          "id": 23484919.02241967,
+          "quantity": 4,
+          "price": 565,
+          "date": "2025-01-05"
+        },
+        {
+          "id": 50030042.137752905,
+          "quantity": 15,
+          "price": 262.85,
+          "date": "2023-11-02"
+        },
+        {
+          "id": 58374568.0042942,
+          "quantity": 5,
+          "price": 276,
+          "date": "2023-08-21"
+        },
+        {
+          "id": 99111186.35845035,
+          "quantity": 4,
+          "price": 238.25,
+          "date": "2023-08-03"
+        },
+        {
+          "id": 77165491.79718679,
+          "quantity": 20,
+          "price": 238.3,
+          "date": "2023-08-03"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248481404",
+      "companyName": "Best Agrolife Ltd",
+      "symbol": "BESTAGRO",
+      "exchange": "NSE",
+      "sector": "CHEMICALS",
+      "purchases": [
+        {
+          "id": 61396719.0647345,
+          "quantity": 25,
+          "price": 0,
+          "date": "2026-01-14"
+        },
+        {
+          "id": 18871058.64823534,
+          "quantity": 45,
+          "price": 89.5,
+          "date": "2023-12-06"
+        },
+        {
+          "id": 25617190.378101163,
+          "quantity": 5,
+          "price": 89.5,
+          "date": "2023-12-06"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248491714",
+      "companyName": "AARON INDUSTRIES Ltd",
+      "symbol": "AARON",
+      "exchange": "NSE",
+      "sector": "ENGINEERING & CAPITAL GOODS",
+      "purchases": [
+        {
+          "id": 9081303.607426938,
+          "quantity": 42,
+          "price": 0,
+          "date": "2025-08-22"
+        },
+        {
+          "id": 3253275.6844222965,
+          "quantity": 6,
+          "price": 338,
+          "date": "2025-04-01"
+        },
+        {
+          "id": 47871819.43662158,
+          "quantity": 1,
+          "price": 338.3,
+          "date": "2025-02-11"
+        },
+        {
+          "id": 56837175.91043651,
+          "quantity": 5,
+          "price": 390,
+          "date": "2024-12-26"
+        },
+        {
+          "id": 95635925.84482817,
+          "quantity": 15,
+          "price": 294,
+          "date": "2024-11-11"
+        },
+        {
+          "id": 36105347.2961547,
+          "quantity": 15,
+          "price": 268,
+          "date": "2023-09-04"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248545025",
+      "companyName": "Angel One Ltd",
+      "symbol": "ANGELONE",
+      "exchange": "NSE",
+      "sector": "FINANCIAL SERVICES",
+      "purchases": [
+        {
+          "id": 74956190.2068268,
+          "quantity": 9,
+          "price": 215,
+          "date": "2025-09-25"
+        },
+        {
+          "id": 6621322.8975849915,
+          "quantity": 1,
+          "price": 215,
+          "date": "2025-09-25"
+        },
+        {
+          "id": 54517731.23335937,
+          "quantity": 3,
+          "price": 271.5,
+          "date": "2025-07-20"
+        },
+        {
+          "id": 14628656.501250481,
+          "quantity": 27,
+          "price": 271.5,
+          "date": "2025-07-20"
+        },
+        {
+          "id": 74100138.42449798,
+          "quantity": 1,
+          "price": 291.5,
+          "date": "2024-12-26"
+        },
+        {
+          "id": 65951896.49065747,
+          "quantity": 9,
+          "price": 291.5,
+          "date": "2024-12-26"
+        },
+        {
+          "id": 17060658.314018916,
+          "quantity": 9,
+          "price": 235.8,
+          "date": "2024-07-01"
+        },
+        {
+          "id": 46555336.71169715,
+          "quantity": 81,
+          "price": 235.8,
+          "date": "2024-07-01"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248563117",
+      "companyName": "Chemcrux Enterprises Ltd",
+      "symbol": "CHEMCRUX",
+      "exchange": "BSE",
+      "sector": "CHEMICALS",
+      "purchases": [
+        {
+          "id": 73788840.20623206,
+          "quantity": 30,
+          "price": 100.5,
+          "date": "2025-03-27"
+        },
+        {
+          "id": 30891494.855076574,
+          "quantity": 15,
+          "price": 161,
+          "date": "2025-01-20"
+        },
+        {
+          "id": 4507774.317402402,
+          "quantity": 5,
+          "price": 228,
+          "date": "2024-07-22"
+        },
+        {
+          "id": 18991714.14099461,
+          "quantity": 3,
+          "price": 353,
+          "date": "2023-08-31"
+        },
+        {
+          "id": 48847288.26449154,
+          "quantity": 13,
+          "price": 322.95,
+          "date": "2023-07-20"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248606740",
+      "companyName": "Dharmaj Crop Guard Ltd",
+      "symbol": "DHARMAJ",
+      "exchange": "NSE",
+      "sector": "CHEMICALS",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 15,
+          "price": 330,
+          "date": "2025-09-17"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 5,
+          "price": 250,
+          "date": "2025-01-20"
+        },
+        {
+          "id": 18629752.595323425,
+          "quantity": 7,
+          "price": 337,
+          "date": "2024-08-13"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 10,
+          "price": 335,
+          "date": "2024-08-01"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248615288",
+      "companyName": "EMS Limited",
+      "symbol": "EMSLIMITED",
+      "exchange": "NSE",
+      "sector": "Construction & Engineering",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 5,
+          "price": 831,
+          "date": "2024-08-02"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 2,
+          "price": 790,
+          "date": "2024-09-17"
+        },
+        {
+          "id": 18629752.595323425,
+          "quantity": 4,
+          "price": 790,
+          "date": "2024-09-17"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248623836",
+      "companyName": "Ethos Limited",
+      "symbol": "ETHOSLTD",
+      "exchange": "NSE",
+      "sector": "Retailing",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 2,
+          "price": 2864,
+          "date": "2025-07-29"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 3,
+          "price": 2831,
+          "date": "2025-01-06"
+        },
+        {
+          "id": 18629752.595323425,
+          "quantity": 1,
+          "price": 2831,
+          "date": "2025-01-06"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248632384",
+      "companyName": "Galaxy Bearings Ltd",
+      "symbol": "GALXBRG-X",
+      "exchange": "BSE",
+      "sector": "Bearings",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 9,
+          "price": 1475,
+          "date": "2023-08-16"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248640932",
+      "companyName": "Garden Reach Shipbuiders & Engineers Ltd",
+      "symbol": "GRSE",
+      "exchange": "NSE",
+      "sector": "Defence",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 19,
+          "price": 2570,
+          "date": "2024-08-11"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248649480",
+      "companyName": "Hariom Pipe Industries Ltd",
+      "symbol": "HARIOMPIPE",
+      "exchange": "BSE",
+      "sector": "Steel and Iron Products",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 10,
+          "price": 323,
+          "date": "2026-03-12"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 20,
+          "price": 394,
+          "date": "2025-05-19"
+        },
+        {
+          "id": 18629752.595323425,
+          "quantity": 5,
+          "price": 370,
+          "date": "2025-05-06"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 5,
+          "price": 460,
+          "date": "2025-02-04"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 4,
+          "price": 475,
+          "date": "2025-02-01"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 6,
+          "price": 519,
+          "date": "2024-12-23"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 10,
+          "price": 569,
+          "date": "2024-11-04"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 8,
+          "price": 602.50,
+          "date": "2023-09-11"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248658036",
+      "companyName": "ICE MAKE Refrigeration",
+      "symbol": "ICEMAKE",
+      "exchange": "NSE",
+      "sector": "Electronics",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 6,
+          "price": 582.80,
+          "date": "2024-01-31"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 7,
+          "price": 679,
+          "date": "2023-10-31"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248666584",
+      "companyName": "Kaynes Technology India Ltd",
+      "symbol": "KAYNES",
+      "exchange": "BSE",
+      "sector": "EMS",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 1,
+          "price": 3380,
+          "date": "2026-02-02"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 1,
+          "price": 3540,
+          "date": "2026-01-20"
+        },
+        {
+          "id": 18629752.595323425,
+          "quantity": 2,
+          "price": 3650,
+          "date": "2026-01-13"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 6,
+          "price": 5571,
+          "date": "2025-11-28"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 2,
+          "price": 5572.50,
+          "date": "2025-11-28"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 1,
+          "price": 5450,
+          "date": "2025-01-04"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 2,
+          "price": 6315,
+          "date": "2025-01-13"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 1,
+          "price": 2960,
+          "date": "2024-04-06"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 3,
+          "price": 2925,
+          "date": "2024-01-31"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 5,
+          "price": 1796.15,
+          "date": "2023-08-23"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248675132",
+      "companyName": "KPI Green Energy Ltd",
+      "symbol": "KPIGREEN",
+      "exchange": "BSE",
+      "sector": "Engineering - Construction",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 10,
+          "price": 400,
+          "date": "2026-02-19"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 10,
+          "price": 482,
+          "date": "2025-09-18"
+        },
+        {
+          "id": 18629752.595323425,
+          "quantity": 7,
+          "price": 0,
+          "date": "2025-01-03"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 4,
+          "price": 0,
+          "date": "2024-02-15"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 10,
+          "price": 1194,
+          "date": "2024-02-07"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248683680",
+      "companyName": "KSOLVES India Ltd",
+      "symbol": "KSOLVES",
+      "exchange": "NSE",
+      "sector": "IT - Software",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 5,
+          "price": 422,
+          "date": "2025-02-27"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 6,
+          "price": 555.50,
+          "date": "2023-10-18"
+        },
+        {
+          "id": 18629752.595323425,
+          "quantity": 2,
+          "price": 657,
+          "date": "2023-08-18"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 2,
+          "price": 537.75,
+          "date": "2023-08-03"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 12,
+          "price": 409.80,
+          "date": "2023-05-31"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248692228",
+      "companyName": "Mazagon Dock Shipbuilders Ltd",
+      "symbol": "MAZDOCK",
+      "exchange": "NSE",
+      "sector": "Defence",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 3,
+          "price": 2465,
+          "date": "2026-01-13"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 10,
+          "price": 2525,
+          "date": "2025-12-24"
+        },
+        {
+          "id": 18629752.595323425,
+          "quantity": 1,
+          "price": 2100,
+          "date": "2025-02-07"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 2,
+          "price": 2455.50,
+          "date": "2024-07-23"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 6,
+          "price": 1000.48,
+          "date": "2023-09-13"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248700776",
+      "companyName": "Manoj Vaibhav",
+      "symbol": "MVGJL",
+      "exchange": "NSE",
+      "sector": "Trading",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 25,
+          "price": 170,
+          "date": "2026-02-02"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 10,
+          "price": 199,
+          "date": "2025-03-28"
+        },
+        {
+          "id": 18629752.595323425,
+          "quantity": 29,
+          "price": 342,
+          "date": "2023-11-29"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248709324",
+      "companyName": "NDR Auto Components Ltd",
+      "symbol": "NDRAUTO",
+      "exchange": "BSE",
+      "sector": "Auto Ancillary",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 3,
+          "price": 626,
+          "date": "2026-03-30"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 5,
+          "price": 799.95,
+          "date": "2024-11-06"
+        },
+        {
+          "id": 18629752.595323425,
+          "quantity": 3,
+          "price": 0,
+          "date": "2024-09-25"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 3,
+          "price": 1060,
+          "date": "2024-08-14"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248717872",
+      "companyName": "Netweb Technologies Ltd",
+      "symbol": "NETWEB",
+      "exchange": "BSE",
+      "sector": "Software Services",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 3,
+          "price": 3270,
+          "date": "2026-01-20"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 3,
+          "price": 1693,
+          "date": "2025-02-04"
+        },
+        {
+          "id": 18629752.595323425,
+          "quantity": 2,
+          "price": 1942.70,
+          "date": "2025-01-22"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 2,
+          "price": 2450,
+          "date": "2025-01-13"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 2,
+          "price": 2414,
+          "date": "2024-07-23"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 1,
+          "price": 2450,
+          "date": "2024-06-11"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 3,
+          "price": 2330,
+          "date": "2024-06-04"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 10,
+          "price": 500,
+          "date": "2023-07-26"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248726420",
+      "companyName": "Paradeep Phosphates Ltd",
+      "symbol": "PARADEEP",
+      "exchange": "NSE",
+      "sector": "Fertilizers",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 18,
+          "price": 85,
+          "date": "2024-09-06"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 50,
+          "price": 83.92,
+          "date": "2024-08-14"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248734968",
+      "companyName": "Pavna Industries Ltd",
+      "symbol": "PAVNAIND-T",
+      "exchange": "NSE",
+      "sector": "Engineering - Industrial Products",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 50,
+          "price": 47.90,
+          "date": "2024-07-23"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 6,
+          "price": 41.20,
+          "date": "2024-01-02"
+        },
+        {
+          "id": 18629752.595323425,
+          "quantity": 36,
+          "price": 41.18,
+          "date": "2024-01-02"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 54,
+          "price": 41.20,
+          "date": "2024-01-02"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 4,
+          "price": 41.18,
+          "date": "2024-01-02"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248743516",
+      "companyName": "Praveg Ltd",
+      "symbol": "PRAVEG",
+      "exchange": "BSE",
+      "sector": "Professional Services",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 2,
+          "price": 720,
+          "date": "2024-12-27"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 5,
+          "price": 788.50,
+          "date": "2024-07-25"
+        },
+        {
+          "id": 18629752.595323425,
+          "quantity": 2,
+          "price": 781,
+          "date": "2024-06-05"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 2,
+          "price": 811,
+          "date": "2024-01-02"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 4,
+          "price": 549.40,
+          "date": "2023-10-09"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248752064",
+      "companyName": "Prudent Corporate Advisory Services Ltd",
+      "symbol": "PRUDENT",
+      "exchange": "NSE",
+      "sector": "Assets Management",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 2,
+          "price": 2460,
+          "date": "2025-11-28"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 1,
+          "price": 2450,
+          "date": "2025-01-27"
+        },
+        {
+          "id": 18629752.595323425,
+          "quantity": 3,
+          "price": 2649,
+          "date": "2025-01-06"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 2,
+          "price": 2100,
+          "date": "2024-08-05"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 1,
+          "price": 2221,
+          "date": "2024-08-02"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 2,
+          "price": 2200,
+          "date": "2024-07-25"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 2,
+          "price": 1536,
+          "date": "2024-06-05"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 3,
+          "price": 1306,
+          "date": "2024-11-20"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248760612",
+      "companyName": "Rainbow children's Medicare Ltd",
+      "symbol": "RAINBOW",
+      "exchange": "BSE",
+      "sector": "Hospital & Healthcare",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 8,
+          "price": 1118.20,
+          "date": "2023-08-22"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248769160",
+      "companyName": "Rajratan Global Wire Ltd",
+      "symbol": "RAJRATAN",
+      "exchange": "BSE",
+      "sector": "Auto Ancillary",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 10,
+          "price": 295,
+          "date": "2025-03-28"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 6,
+          "price": 499,
+          "date": "2024-12-03"
+        },
+        {
+          "id": 18629752.595323425,
+          "quantity": 10,
+          "price": 835,
+          "date": "2023-06-08"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248777708",
+      "companyName": "Sigma Solve Ltd",
+      "symbol": "SIGMA",
+      "exchange": "NSE",
+      "sector": "Software Services",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 100,
+          "price": 24.30,
+          "date": "2025-03-28"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 20,
+          "price": 33.72,
+          "date": "2024-11-14"
+        },
+        {
+          "id": 18629752.595323425,
+          "quantity": 10,
+          "price": 35.49,
+          "date": "2023-07-13"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 70,
+          "price": 37.29,
+          "date": "2023-06-20"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248786256",
+      "companyName": "Sirca Paints India Ltd",
+      "symbol": "SIRCA",
+      "exchange": "NSE",
+      "sector": "Trading",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 3,
+          "price": 389,
+          "date": "2023-11-13"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 14,
+          "price": 362.40,
+          "date": "2023-10-31"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248794804",
+      "companyName": "Shankar Lal Rampal Dye",
+      "symbol": "SRD",
+      "exchange": "NSE",
+      "sector": "Trading",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 60,
+          "price": 82,
+          "date": "2025-07-29"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 40,
+          "price": 54,
+          "date": "2025-03-28"
+        },
+        {
+          "id": 18629752.595323425,
+          "quantity": 7,
+          "price": 131.50,
+          "date": "2024-08-02"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 3,
+          "price": 131.45,
+          "date": "2024-08-02"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 15,
+          "price": 130.50,
+          "date": "2024-07-25"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 2,
+          "price": 102.35,
+          "date": "2024-01-31"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 2,
+          "price": 102.30,
+          "date": "2024-01-31"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 13,
+          "price": 103,
+          "date": "2024-01-03"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248803352",
+      "companyName": "Supriya Lifescience Ltd",
+      "symbol": "SUPRIYA",
+      "exchange": "NSE",
+      "sector": "CDMO",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 5,
+          "price": 735,
+          "date": "2025-01-06"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 7,
+          "price": 650,
+          "date": "2024-09-17"
+        },
+        {
+          "id": 18629752.595323425,
+          "quantity": 8,
+          "price": 629,
+          "date": "2024-09-11"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 5,
+          "price": 383,
+          "date": "2024-07-23"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 1,
+          "price": 286.85,
+          "date": "2023-09-20"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 4,
+          "price": 269.85,
+          "date": "2023-08-22"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778248811900",
+      "companyName": "Venus Pipes & Tubes Ltd",
+      "symbol": "VENUSPIPES",
+      "exchange": "NSE",
+      "sector": "Steel and Iron Products",
+      "purchases": [
+        {
+          "id": 65197558.21030072,
+          "quantity": 5,
+          "price": 1014,
+          "date": "2026-03-12"
+        },
+        {
+          "id": 92073711.75688723,
+          "quantity": 5,
+          "price": 1190,
+          "date": "2025-12-24"
+        },
+        {
+          "id": 18629752.595323425,
+          "quantity": 2,
+          "price": 1297,
+          "date": "2025-08-11"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 3,
+          "price": 1300,
+          "date": "2025-08-07"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 10,
+          "price": 1447,
+          "date": "2025-07-29"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 3,
+          "price": 1165,
+          "date": "2025-05-09"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 3,
+          "price": 1609,
+          "date": "2024-12-03"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 1,
+          "price": 2007,
+          "date": "2024-08-14"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 5,
+          "price": 1458,
+          "date": "2024-01-31"
+        },
+        {
+          "id": 30589903.631375104,
+          "quantity": 4,
+          "price": 1256.20,
+          "date": "2023-10-16"
+        }
+      ]
+    }
+  ],
+  "Groww": [
+    {
+      "id": "stock_1778238242454",
+      "companyName": "Pricol Ltd",
+      "symbol": "PRICOLLTD",
+      "exchange": "NSE",
+      "sector": "",
+      "purchases": [
+        {
+          "id": 1778238242454,
+          "quantity": 70,
+          "price": 677.55,
+          "date": "8/5/2026"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778238300235",
+      "companyName": "Cochin Shipyard Ltd",
+      "symbol": "COCHINSHIP",
+      "exchange": "NSE",
+      "sector": "",
+      "purchases": [
+        {
+          "id": 1778238300235,
+          "quantity": 30,
+          "price": 1760,
+          "date": "8/5/2026"
+        }
+      ]
+    },
+    {
+      "id": "stock_1778240824196",
+      "companyName": "Varun Beverages Limited",
+      "symbol": "VBL",
+      "exchange": "NSE",
+      "sector": "FMCG",
+      "purchases": [
+        {
+          "id": 1778240824193,
+          "quantity": 20,
+          "price": 438,
+          "date": "8/5/2026"
+        },
+        {
+          "id": 1778240824196,
+          "quantity": 10,
+          "price": 456,
+          "date": "8/5/2026"
+        },
+        {
+          "id": 1778240824196,
+          "quantity": 42,
+          "price": 472,
+          "date": "8/5/2026"
+        },
+        {
+          "id": 1778240824196,
+          "quantity": 10,
+          "price": 445,
+          "date": "8/5/2026"
+        },
+        {
+          "id": 1778240824196,
+          "quantity": 8,
+          "price": 592,
+          "date": "8/5/2026"
+        },
+        {
+          "id": 1778240824196,
+          "quantity": 12,
+          "price": 592,
+          "date": "8/5/2026"
+        },
+        {
+          "id": 1778240824196,
+          "quantity": 20,
+          "price": 633.2,
+          "date": "8/5/2026"
+        },
+        {
+          "id": 1778240824196,
+          "quantity": 30,
+          "price": 633.2,
+          "date": "8/5/2026"
+        },
+        {
+          "id": 1778240824196,
+          "quantity": 2,
+          "price": 355.48,
+          "date": "8/5/2026"
+        },
+        {
+          "id": 1778240824196,
+          "quantity": 3,
+          "price": 355.48,
+          "date": "8/5/2026"
+        },
+        {
+          "id": 1778240824196,
+          "quantity": 12,
+          "price": 321.98,
+          "date": "8/5/2026"
+        },
+        {
+          "id": 1778240824196,
+          "quantity": 18,
+          "price": 321.98,
+          "date": "8/5/2026"
+        }
+      ]
+    }
+  ],
+  "Angel One": [
+    {
+      "id": "stock_1778242114922",
+      "companyName": "Alpex Solar Limited",
+      "symbol": "ALPEXSOLAR-SM",
+      "exchange": "NSE",
+      "sector": "Capital Goods - Electrical Equipment ",
+      "purchases": [
+        {
+          "id": 1778242114922,
+          "quantity": 100,
+          "price": 699.83,
+          "date": "8/5/2026"
+        }
+      ]
+    }
+  ]
+}

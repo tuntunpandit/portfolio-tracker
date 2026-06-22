@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import { useLocalStorage } from "../../hooks/useLocalStorage";
 import { fetchLivePrice } from "../../utils/marketApi";
+import mockData from "../../assets/mocks/stocks.json";
 import StatsCards from "./StatsCards";
 import AddStockModal from "./AddStockModal";
 import ImportExcelModal from "./ImportExcelModal";
@@ -406,15 +407,28 @@ const PortfolioPage = () => {
       />
 
       {/* CORS Anywhere Demo Link */}
-      <div className="mt-10 text-center">
-        <a
-          href="https://cors-anywhere.herokuapp.com/corsdemo"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-400 underline hover:text-blue-300"
-        >
-          Enable CORS Proxy (CORS Anywhere)
-        </a>
+      <div className="mt-10 text-center space-y-4">
+        <div>
+          <a
+            href="https://cors-anywhere.herokuapp.com/corsdemo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 underline hover:text-blue-300"
+          >
+            Enable CORS Proxy (CORS Anywhere)
+          </a>
+        </div>
+        <div>
+          <button
+            onClick={() => {
+              setPortfolioData(mockData);
+              alert("Mock data loaded into local storage!");
+            }}
+            className="text-emerald-400 underline hover:text-emerald-300 cursor-pointer"
+          >
+            Load Mock Data
+          </button>
+        </div>
       </div>
     </div>
   );
