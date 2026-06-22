@@ -209,7 +209,10 @@ const DashboardPage = () => {
                   <span className="text-slate-400">Current:</span>
                   {isLoading ? (
                     <div className="flex items-center gap-1">
-                      <Loader className="animate-spin text-brand-accent" size={14} />
+                      <Loader
+                        className="animate-spin text-brand-accent"
+                        size={14}
+                      />
                       <span className="text-slate-400 text-xs">Loading...</span>
                     </div>
                   ) : (
