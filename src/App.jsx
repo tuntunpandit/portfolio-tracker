@@ -8,10 +8,7 @@ import Header from "./components/layout/Header";
 import DashboardPage from "./features/dashboard/DashboardPage";
 import PortfolioPage from "./features/portfolio/PortFolioPage";
 import MutualFundPage from "./features/mutualfunds/MutualFundPage";
-// Placeholder component for future module
-const SwingTrading = () => (
-  <div className="text-white p-10">Swing Trading Module Coming Soon...</div>
-);
+import SwingTradingPage from "./features/swingtrading/SwingTradingPage";
 
 const App = () => {
   return (
@@ -27,7 +24,7 @@ const App = () => {
             <Route path="/dashboard" element={<DashboardPage />} />
             <Route path="/portfolio" element={<PortfolioPage />} />
             <Route path="/mutual-funds" element={<MutualFundPage />} />
-            <Route path="/swing-trading" element={<SwingTrading />} />
+            <Route path="/swing-trading" element={<SwingTradingPage />} />
 
             {/* 404 Catch-all */}
             <Route

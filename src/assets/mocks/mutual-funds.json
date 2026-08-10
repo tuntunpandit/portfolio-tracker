@@ -1,0 +1,188 @@
+{
+  "funds": [
+    {
+      "id": "mf_1",
+      "isin": "INF966L01986",
+      "schemeCode": 120847,
+      "schemeName": "Quant ELSS Tax Saver Fund Direct Growth",
+      "fundHouse": "Quant Mutual Fund",
+      "category": "Large Cap",
+      "holdings": [
+        {
+          "id": "holding_1",
+          "units": 287.525,
+          "purchaseNAV": 278.223,
+          "purchaseDate": "2022-12-01",
+          "investedAmount": 79996
+        },
+        {
+          "id": "holding_2",
+          "units": 19.511,
+          "purchaseNAV": 256.252,
+          "purchaseDate": "2022-12-23",
+          "investedAmount": 4999.75
+        },
+        {
+          "id": "holding_3",
+          "units": 82.619,
+          "purchaseNAV": 242.063,
+          "purchaseDate": "2023-02-28",
+          "investedAmount": 19999
+        },
+        {
+          "id": "holding_4",
+          "units": 96.996,
+          "purchaseNAV": 242.266,
+          "purchaseDate": "2023-03-29",
+          "investedAmount": 23498.83
+        }
+      ]
+    },
+    {
+      "id": "mf_2",
+      "isin": "INF204K01K15",
+      "schemeCode": 118778,
+      "schemeName": "Nippon India Small Cap Fund Direct Growth",
+      "fundHouse": "Nippon India Mutual Fund",
+      "category": "Small Cap",
+      "holdings": [
+        {
+          "id": "holding_1",
+          "units": 26.267,
+          "purchaseNAV": 190.343,
+          "purchaseDate": "2025-09-10",
+          "investedAmount": 4999.75
+        },
+        {
+          "id": "holding_2",
+          "units": 26.334,
+          "purchaseNAV": 189.856,
+          "purchaseDate": "2025-11-06",
+          "investedAmount": 4999.75
+        },
+        {
+          "id": "holding_3",
+          "units": 26.882,
+          "purchaseNAV": 185.989,
+          "purchaseDate": "2025-12-05",
+          "investedAmount": 4999.75
+        },
+        {
+          "id": "holding_4",
+          "units": 26.525,
+          "purchaseNAV": 188.495,
+          "purchaseDate": "2026-01-05",
+          "investedAmount": 4999.75
+        },
+        {
+          "id": "holding_5",
+          "units": 27.449,
+          "purchaseNAV": 182.148,
+          "purchaseDate": "2026-02-05",
+          "investedAmount": 4999.75
+        },
+        {
+          "id": "holding_6",
+          "units": 28.076,
+          "purchaseNAV": 178.079,
+          "purchaseDate": "2026-03-05",
+          "investedAmount": 4999.75
+        },
+        {
+          "id": "holding_7",
+          "units": 29.084,
+          "purchaseNAV": 171.906,
+          "purchaseDate": "2026-04-06",
+          "investedAmount": 4999.75
+        },
+        {
+          "id": "holding_8",
+          "units": 25.803,
+          "purchaseNAV": 193.764,
+          "purchaseDate": "2026-05-05",
+          "investedAmount": 4999.75
+        },
+        {
+          "id": "holding_9",
+          "units": 25.634,
+          "purchaseNAV": 195.044,
+          "purchaseDate": "2026-06-05",
+          "investedAmount": 4999.75
+        }
+      ]
+    },
+    {
+      "id": "mf_3",
+      "isin": "INF204K01K15",
+      "schemeCode": 147946,
+      "schemeName": "Bandhan Small Cap Fund Direct Growth",
+      "fundHouse": "Bandhan Mutual Fund",
+      "category": "Small Cap",
+      "holdings": [
+        {
+          "id": "holding_1",
+          "units": 97.268,
+          "purchaseNAV": 51.402,
+          "purchaseDate": "2025-09-10",
+          "investedAmount": 4999.75
+        },
+        {
+          "id": "holding_2",
+          "units": 96.036,
+          "purchaseNAV": 52.061,
+          "purchaseDate": "2025-11-06",
+          "investedAmount": 4999.75
+        },
+        {
+          "id": "holding_3",
+          "units": 98.157,
+          "purchaseNAV": 50.936,
+          "purchaseDate": "2025-12-05",
+          "investedAmount": 4999.75
+        },
+        {
+          "id": "holding_4",
+          "units": 96.442,
+          "purchaseNAV": 51.842,
+          "purchaseDate": "2026-01-05",
+          "investedAmount": 4999.75
+        },
+        {
+          "id": "holding_5",
+          "units": 99.563,
+          "purchaseNAV": 50.217,
+          "purchaseDate": "2026-02-05",
+          "investedAmount": 4999.75
+        },
+        {
+          "id": "holding_6",
+          "units": 104.488,
+          "purchaseNAV": 47.85,
+          "purchaseDate": "2026-03-05",
+          "investedAmount": 4999.75
+        },
+        {
+          "id": "holding_7",
+          "units": 106.344,
+          "purchaseNAV": 47.015,
+          "purchaseDate": "2026-04-06",
+          "investedAmount": 4999.75
+        },
+        {
+          "id": "holding_8",
+          "units": 94.734,
+          "purchaseNAV": 52.777,
+          "purchaseDate": "2026-05-05",
+          "investedAmount": 4999.75
+        },
+        {
+          "id": "holding_9",
+          "units": 94.696,
+          "purchaseNAV": 52.798,
+          "purchaseDate": "2026-06-05",
+          "investedAmount": 4999.75
+        }
+      ]
+    }
+  ]
+}
